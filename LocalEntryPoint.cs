@@ -25,9 +25,9 @@ namespace IntracoAPI
             .AddEnvironmentVariables()
             .Build();
 
-            //Log.Logger = new iLoggerConfiguration()
-            //    .ReadFrom.Configuration(configuration)
-            //    .CreateLogger();
+            Log.Logger = new iLoggerConfiguration()
+                .ReadFrom.Configuration(configuration)
+                .CreateLogger();
             Attribute//Targets
                 //logger get
             try
