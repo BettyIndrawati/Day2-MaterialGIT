@@ -28,6 +28,8 @@ namespace IntracoAPI
             //Log.Logger = new LoggerConfiguration()
             //    .ReadFrom.Configuration(configuration)
             //    .CreateLogger();
+
+            AttributeTargets logger get
             try
             {
                 Log.Information("******Method: GetDetailsStarted*******");
