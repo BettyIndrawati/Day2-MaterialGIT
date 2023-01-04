@@ -25,9 +25,9 @@ namespace IntracoAPI
             .AddEnvironmentVariables()
             .Build();
 
-            Log.Logger = new LoggerConfiguration()
-                .ReadFrom.Configuration(configuration)
-                .CreateLogger();
+            //Log.Logger = new LoggerConfiguration()
+            //    .ReadFrom.Configuration(configuration)
+            //    .CreateLogger();
             try
             {
                 Log.Information("******Method: GetDetailsStarted*******");
