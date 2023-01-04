@@ -28,7 +28,7 @@ namespace IntracoAPI
             //Log.Logger = new iLoggerConfiguration()
             //    .ReadFrom.Configuration(configuration)
             //    .CreateLogger();
-            AttributeTargets
+            Attribute//Targets
                 //logger get
             try
             {
