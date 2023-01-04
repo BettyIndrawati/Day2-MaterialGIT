@@ -25,7 +25,7 @@ namespace IntracoAPI
             .AddEnvironmentVariables()
             .Build();
 
-            Log.Logger = new LoggerConfiguration()
+            Log.Logger = new iLoggerConfiguration()
                 .ReadFrom.Configuration(configuration)
                 .CreateLogger();
             try
